@@ -15,6 +15,9 @@ description = "Concurrent work-stealing deque"
 keywords = ["chase-lev", "lock-free", "scheduler", "scheduling"]
 categories = ["algorithms", "concurrency", "data-structures"]
 
+[dependencies]
+debra = { git = "https://github.com/oliver-giersch/debra" }
+
 [dependencies.crossbeam-epoch]
 version = "0.7"
 path = "../crossbeam-epoch"
